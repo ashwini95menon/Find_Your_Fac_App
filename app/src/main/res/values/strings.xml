@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Find Your Fac</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_display_days">DisplayDays</string>
+    <string name="title_activity_display_option1">DisplayOption1</string>
+    <string name="title_activity_display_option2">DisplayOption2</string>
+    <string name="title_activity_display_option3">DisplayOption3</string>
+    <string name="title_activity_display_option4">DisplayOption4</string>
+    <string name="title_activity_display_option5">DisplayOption5</string>
+    <string name="title_activity_display_teachers">DisplayTeachers</string>
+    <string name="title_activity_display_teachers_t">DisplayTeachersT</string>
+    <string name="title_activity_display_teachersw">DisplayTeachersw</string>
+    <string name="title_activity_display_teachers_th">DisplayTeachersTh</string>
+    <string name="title_activity_display_teachers_f">DisplayTeachersF</string>
+    <string name="title_activity_displaylabs_1">Displaylabs_1</string>
+    <string name="title_activity_suvarna">Suvarna</string>
+    <string name="title_activity_monica">Monica</string>
+    <string name="title_activity_kalyani">Kalyani</string>
+    <string name="title_activity_classrooms_monday">ClassroomsMonday</string>
+    <string name="title_activity_suvarna_t">SuvarnaT</string>
+    <string name="title_activity_display_list_view">DisplayListView</string>
+    <string name="title_activity_display_list">DisplayList</string>
+    <string name="title_activity_monica1">Monica1</string>
+</resources>

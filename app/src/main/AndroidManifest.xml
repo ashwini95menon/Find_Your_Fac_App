@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ashwini.findyourfac">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Faf"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DisplayDays"
+            android:label="@string/title_activity_display_days"
+            android:parentActivityName=".Faf"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ashwini.findyourfac.Faf" />
+        </activity>
+        <activity
+            android:name=".DisplayOption1"
+            android:label="@string/title_activity_display_option1"
+            android:parentActivityName=".DisplayDays"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ashwini.findyourfac.DisplayDays" />
+        </activity>
+        <activity
+            android:name=".DisplayOption2"
+            android:label="@string/title_activity_display_option2"
+            android:parentActivityName=".DisplayDays"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ashwini.findyourfac.DisplayDays" />
+        </activity>
+        <activity
+            android:name=".DisplayOption3"
+            android:label="@string/title_activity_display_option3"
+            android:parentActivityName=".DisplayDays"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ashwini.findyourfac.DisplayDays" />
+        </activity>
+        <activity
+            android:name=".DisplayOption4"
+            android:label="@string/title_activity_display_option4"
+            android:parentActivityName=".DisplayDays"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ashwini.findyourfac.DisplayDays" />
+        </activity>
+        <activity
+            android:name=".DisplayOption5"
+            android:label="@string/title_activity_display_option5"
+            android:parentActivityName=".DisplayDays"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ashwini.findyourfac.DisplayDays" />
+        </activity>
+        <activity
+            android:name=".DisplayTeachers"
+            android:label="@string/title_activity_display_teachers"
+            android:parentActivityName=".DisplayOption1"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ashwini.findyourfac.DisplayOption1" />
+        </activity>
+        <activity
+            android:name=".DisplayTeachersT"
+            android:label="@string/title_activity_display_teachers_t"
+            android:parentActivityName=".DisplayOption2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ashwini.findyourfac.DisplayOption2" />
+        </activity>
+        <activity
+            android:name=".DisplayTeachersw"
+            android:label="@string/title_activity_display_teachersw"
+            android:parentActivityName=".DisplayOption3"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ashwini.findyourfac.DisplayOption3" />
+        </activity>
+        <activity
+            android:name=".DisplayTeachersTh"
+            android:label="@string/title_activity_display_teachers_th"
+            android:parentActivityName=".DisplayOption4"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ashwini.findyourfac.DisplayOption4" />
+        </activity>
+        <activity
+            android:name=".DisplayTeachersF"
+            android:label="@string/title_activity_display_teachers_f"
+            android:parentActivityName=".DisplayOption5"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ashwini.findyourfac.DisplayOption5" />
+        </activity>
+        <activity
+            android:name=".Displaylabs_1"
+            android:label="@string/title_activity_displaylabs_1"
+            android:parentActivityName=".DisplayOption1"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ashwini.findyourfac.DisplayOption1" />
+        </activity>
+        <activity
+            android:name=".Suvarna"
+            android:label="@string/title_activity_suvarna"
+            android:parentActivityName=".DisplayTeachers"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ashwini.findyourfac.DisplayTeachers" />
+        </activity>
+        <activity
+            android:name=".Monica"
+            android:label="@string/title_activity_monica"
+            android:parentActivityName=".DisplayTeachers"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ashwini.findyourfac.DisplayTeachers" />
+        </activity>
+        <activity
+            android:name=".Kalyani"
+            android:label="@string/title_activity_kalyani"
+            android:parentActivityName=".DisplayTeachers"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ashwini.findyourfac.DisplayTeachers" />
+        </activity>
+        <activity
+            android:name=".ClassroomsMonday"
+            android:label="@string/title_activity_classrooms_monday"
+            android:parentActivityName=".DisplayOption1"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ashwini.findyourfac.DisplayOption1" />
+        </activity>
+        <activity
+            android:name=".SuvarnaT"
+            android:label="@string/title_activity_suvarna_t"
+            android:parentActivityName=".DisplayTeachersT"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ashwini.findyourfac.DisplayTeachersT" />
+        </activity>
+        <activity
+            android:name=".DisplayListView"
+            android:label="@string/title_activity_display_list_view"
+            android:parentActivityName=".SuvarnaT"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ashwini.findyourfac.SuvarnaT" />
+        </activity>
+        <activity
+            android:name=".DisplayList"
+            android:label="@string/title_activity_display_list"
+            android:parentActivityName=".SuvarnaT"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ashwini.findyourfac.SuvarnaT" />
+        </activity>
+        <activity
+            android:name=".Monica1"
+            android:label="@string/title_activity_monica1"
+            android:parentActivityName=".DisplayTeachersT"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ashwini.findyourfac.DisplayTeachersT" />
+        </activity>
+    </application>
+
+</manifest>

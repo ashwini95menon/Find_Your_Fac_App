@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ashwini.findyourfac.DisplayTeachersTh"
+    tools:showIn="@layout/activity_display_teachers_th">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suvarna Maam"
+        android:background="@color/grey"
+        android:id="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/button36" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monica Maam"
+        android:background="@color/grey"
+        android:id="@+id/button36"
+        android:layout_above="@+id/button37"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button37"
+        android:layout_alignEnd="@+id/button37" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kalyani Maam"
+        android:background="@color/grey"
+        android:id="@+id/button37"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button38"
+        android:layout_alignEnd="@+id/button38" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aparna Maam"
+        android:background="@color/grey"
+        android:id="@+id/button38"
+        android:layout_below="@+id/button37"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button39"
+        android:layout_alignEnd="@+id/button39" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prachi Maam"
+        android:background="@color/grey"
+        android:id="@+id/button39"
+        android:layout_below="@+id/button38"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Choose Option"
+        android:id="@+id/textView13"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>
